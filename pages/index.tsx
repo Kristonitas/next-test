@@ -1,9 +1,4 @@
-import React from "react";
-
-const Label = props => {
-	const { text } = props;
-	return <p>{text}</p>;
-};
+import Label from "../components/label";
 
 const Index = () => {
 	return (
